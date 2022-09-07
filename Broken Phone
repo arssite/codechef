@@ -1,0 +1,10 @@
+for i in range(int(input())):
+    r,c=input().split()
+    r,c=int(r),int(c)
+    
+    if r>c :
+        print('NEW PHONE')
+    elif r==c:
+        print('ANY')
+    else:
+        print('REPAIR')
