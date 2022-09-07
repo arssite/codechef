@@ -1,0 +1,10 @@
+for T in range(int(input())):
+    while True:
+        try:
+            X,Y =input().split()
+            X,Y=int(X),int(Y)
+            print(X*Y)
+        except EOFError:
+            print ("")
+            break
+    
