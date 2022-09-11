@@ -1,0 +1,6 @@
+for i in range(int(input())):
+    a,b,c,d=input().split()
+    a,b,c,d=int(a),int(b),int(c),int(d)
+    
+    out=a+(b*d)-(c*d)
+    print(out)
