@@ -1,0 +1,6 @@
+for i in range(int(input())):
+    l,b,c=input().split()
+    l,b,c=int(l),int(b),int(c)
+    peri=2*(l+b)
+    out=c*peri
+    print(out)
