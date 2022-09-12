@@ -1,0 +1,13 @@
+for  i in range(int(input())):
+    a,b,c,d=input().split()
+    a,b,c,d=float(a),float(b),float(c),float(d)
+    c1=a/b
+    c2=c/d
+    if c1>c2:
+        print('Alice')
+    elif c2>c1:
+        print('Bob')
+    elif c1==c2:
+        print('Equal')
+    else:
+        print('ArS')
